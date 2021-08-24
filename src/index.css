@@ -260,9 +260,9 @@ body {
     justify-content: space-around;
     background-color: #f6f5f3;
   }
-
+ 
   .bar-chart{
-    
+
     width: 45px;
     display: flex;
     flex-direction: column-reverse;
