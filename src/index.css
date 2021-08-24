@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.icon i{
+  margin: 0 10px 0 10px;
+}
+.phone_head{
+  margin: 0 10px 0 10px;
+}
+
+.header_container_dark{
+  background-color: rgb(37, 37, 37);
+  color: rgb(236, 230, 255);
+ padding: 0 50px;
+}
+
+.login_signup_container{
+  display: flex;
+  justify-content: flex-end;
+  /* flex direction style */
+}
+
+.login_signup_container button{
+  background: none;
+  border: none;
+  color: rgb(236, 230, 255);
+
+}
+.custom-link-nav .nav-link{
+  color: rgb(37, 37, 37);
+  padding: 0 10px;
+  border-right: 1px solid rgb(37,37,37);
+  }
+  
+  
+  .custom-link-nav .nav-item:last-child .nav-link
+  {
+  border: none;
+  }
+  
+  
+  .custom-link-nav{
+    width: 100%;
+  height: 100%;
+  justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-custom .custom-logo{
+    height: 93.2px;
+  
+  }
+  
+  .custom-align{
+  
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+  }
+  
+  .custom-btn-donate{
+    height:43px;
+    margin-top: 21px;
+    border-radius: 30px;
+  }
+  
+  .nav-custom{
+    padding:5px 50px;
+  }
+
+  .hero-img-custom{
+    height: 643px;
+  background-image:url("./images/Science_Poverty_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+  }
+  
+  .hero-heading{
+  
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+   
+    text-transform: uppercase;
+  
+  }
+  
+  
+  .hero-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 130px;
+  
+  
+    background-color: rgba(253, 196, 205, 0.4);
+  }
+  .banner-1-custom{
+    height: 300px;
+   background-color:   #33586B;
+    
+   
+    background-repeat: no-repeat;
+    background-size:cover;
+  color: rgb(236, 230, 255); 
+  display: flex;
+  flex-direction: column;
+  padding:0 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .banner-1-custom span{
+  margin: 15px 0;
+    width: 50px;
+    height: 1px;
+  border-top: 5px solid #fff;
+  
+  }
+ 
+
+
+
+.donate-conatiner{
+  margin: 50px 50px 0 0;
+}
+
+
+  .circle-div-container {
+    position: relative;
+    height: 300px;
+    width: 809px;
+  
+  }
+  
+  .circular-div {
+    height: 200px;
+    width: 200px;
+  
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #000;
+    top: 20%;
+  }
+  
+  .circular-div span {
+    text-align: center;
+  }
+  
+  
+  .circular-div.cr1 {
+  
+  
+    left: 21%;
+  }
+  
+  .circular-div.cr2 {
+    background-color:  #33586B;
+    left: 43%;
+    color: #fff;
+    border: none;
+    z-index: 2;
+  
+  }
+  
+  .circular-div.cr3 {
+  
+    left: 64%;
+  
+  
+  }
+  
+  .donate-info-btn-con .btn {
+    border-radius: 30px;
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    margin: 0 10px;
+   
+  }
+  
+  .donate-info-btn-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .donate-info-btn-con .btn:hover{
+    background-color: #33586B;
+
+  }
+  
+
+
+
+
+  .custom-misc-h1-1 span{
+    color: #02b24f;
+  }
+  
+  .custom-logo-misc{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+  }
+  .custom-headdd{
+    margin: 50px;
+  }
+  
+  .line2{
+  margin: 15px auto;
+  border-color: #02b24f;
+  
+  }
+
+  .custom-card-btn{
+    background-color: rgb(236, 230, 255);
+    color:  #33586B;
+    border: none;
+  }
+  .custom-card-btn:hover{
+    background-color: rgb(207, 204, 214);
+    color: #02b24f;
+    border: none;
+    
+  }
+  
+  .custom-card-img{
+    padding: 0;
+  }
+  
+  .custom-card-img img{
+    max-height: 400px;
+  }
+  
+  .card-1-custom-con{
+    max-width:825px;
+    margin:auto;
+    
+  }
+  
+  .heignt-creator{
+    height: 205px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f5f3;
+  }
+
+  .bar-chart{
+    width: 45px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:  #33586B;
+    position: relative;
+    border-radius: 5px;
+    }
+    
+    
+    .bar-chart p {
+    white-space: nowrap;
+      transform: rotate(-90deg);
+    }
+    
+    .bar-chart div {
+    position: absolute;
+    top: -20px;
+    left: 12px;
+    color:#F9F9F9
+    }
+    
+    .con-chart{
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .custom-misc-2-con-chart{
+      padding: 40px 150px;
+      background-color: #f6f5f3;
+      margin:92px;
+      text-align: left;
+
+    }
+    
+    .row.custom-misc-2-con-chart.col-5 button{
+      border-color: none;
+    }
+    .custom-misc-2-con-chart.col-5 ul{
+text-align:left;
+    }
+    
+
+  
+
+  
+ 
+  .custom-card-2 .card-img-top{
+   max-height: 300px;
+
+   }
+
+   .custom-card-2 .card-title{
+     font-size: 15px;
+   }
+   .custom-card-2 .card-text{
+    font-size: 10px;
+  }
+
+ .banner-2-custom{
+   height: 473px;
+   background-color:  #33586B;
+   margin: 30px 0 30px 0;
+   padding: 125px;
+     text-align: right;
+   align-items: center;
+   
+   
+ }
+ .custom-banner2-head{
+   text-align: left;
+ }
+ .custom-banner2-imga{
+   border-radius: 50%;
+ }
+
+ 
+
+
+
+
+
+
+ .form-icon{
+  position: relative;  
+  }
+  
+  .form-icon i{
+    position: absolute;
+    left: 5px;
+    top: 16%;
+  
+  }
+  
+  .form-icon input{
+    padding: 0 0 0 30px;
+  }
+  
+  .pill{
+    border-radius: 30px;
+  }
+  
+  .transaprent-kid{
+    position: absolute;
+    max-width: 475px;
+    right: 68px;
+    
+    top: 0;
+   
+  }
+
+  .custom-banner-3 .backg{
+    background-color: rgb(0, 0, 0);
+    
+    opacity: 55%;
+    background-size: 50px;
+    
+  }
+  .custom-banner-3
+  {
+  align-items: center;
+    text-align: left;
+    padding-left: 120px;
+    padding-top: 50px;
+    
+    color: rgb(249, 249, 253);
+  
+    
+    max-height: fit-content;
+
+  
+   
+  }
+  .custom-banner-3-haed{
+    height: 600px;
+    background-image: url(./images/lastbanner.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0 ;
+    padding: 0;
+   
+  }
+  .custom-banner3-text{
+    text-align: left;
+    color: honeydew;
+    padding: 90px 0 0 100px;
+    
+
+  }
+  .custom-footer-nav{
+    
+      width: 100%;
+    height: 100%;
+    justify-content: center;
+      align-items: center;
+      padding: 0 0 0 355px;
+      margin: 15px;
+      
+    
+    
+  }
+  .custom-footer-nav .nav-link{
+    color: rgb(37, 37, 37);
+  padding: 0 30px;
+  border-right: 1px solid rgb(37,37,37);
+  }
+  .footer-customm .custom-img-footer{
+    height: 50px;
+  }
+ .container-footerr{
+   height: 200px;
+   margin: 15px;
+ }
+ .footer-customm{
+   font-size: 14px;
+   text-align: left;
+ }
